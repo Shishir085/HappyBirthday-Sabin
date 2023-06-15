@@ -1,0 +1,28 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+p {
+    margin: 0 0;
+    position: absolute;
+    font: 16px Verdana;
+    color: #ffffff;
+    height: 25px;
+    top: calc( 100vh - 30px );
+    
+}
+p a {
+    text-decoration: none;
+    color: #00ccff;
+
+}
+span {
+    font-size: 20px;
+}
+p > a:first-of-type {
+    font-size: 23px;
+}
+body {
+    overflow: hidden;
+}
